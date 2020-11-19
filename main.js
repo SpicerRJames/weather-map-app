@@ -28,7 +28,7 @@ $("#button").on('click', function(event){
         } else if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 < 59 && Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 > 36))){
             $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It is cold today.");
         } else if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 < 35 && Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 > 0))){
-            $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS FUCKING COLD TODAY!!!");
+            $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS COLD TODAY!!!");
         } else if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 < 0)){
             $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit YOU WILL FREEZE TO DEATH!!!");
         }
@@ -36,13 +36,13 @@ $("#button").on('click', function(event){
 
         //************ DAY 2 *************//
         if(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 > 85)){
-            $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO DAMN HOT!!!");
+            $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO HOT!!!");
         } else if(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 < 84 && Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 > 60))){
             $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It's nice out today!");
         } else if(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 < 59 && Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 > 36))){
             $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It is cold today.");
         } else if(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 < 35 && Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 > 0))){
-            $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS FUCKING COLD TODAY!!!");
+            $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS COLD TODAY!!!");
         }  else if(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 < 0)){
             $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit YOU WILL FREEZE TO DEATH!!!");
         }
@@ -50,13 +50,13 @@ $("#button").on('click', function(event){
 
         //*************** DAY 3 ***************//
         if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 > 85)){
-            $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO DAMN HOT!!!");
+            $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO HOT!!!");
         } else if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 < 84 && Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 > 60))){
             $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It's nice out today!");
         } else if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 < 59 && Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 > 36))){
             $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It is cold today.");
         } else if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 < 35 && Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 > 0))){
-            $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS FUCKING COLD TODAY!!!");
+            $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS COLD TODAY!!!");
         } else if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 < 0)){
             $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit YOU WILL FREEZE TO DEATH!!!");
         }
@@ -116,13 +116,13 @@ var marker = new mapboxgl.Marker({
             $("#name").html(cityName);
 
             if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 > 85)){
-                $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO DAMN HOT!!!");
+                $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO HOT!!!");
             } else if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 < 84 && Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 > 60))){
                 $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It's nice out today!");
             } else if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 < 59 && Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 > 36))){
                 $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It is cold today.");
             } else if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 < 35 && Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 > 0))){
-                $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS FUCKING COLD TODAY!!!");
+                $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS COLD TODAY!!!");
             } else if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 < 0)){
                 $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit YOU WILL FREEZE TO DEATH!!!");
             }
@@ -137,7 +137,7 @@ var marker = new mapboxgl.Marker({
             } else if(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 < 59 && Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 > 36))){
                 $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It is cold today.");
             } else if(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 < 35 && Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 > 0))){
-                $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS FUCKING COLD TODAY!!!");
+                $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS COLD TODAY!!!");
             }  else if(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32 < 0)){
                 $("#tempurature1").html(Math.floor(((parseInt(cityTemp1)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit YOU WILL FREEZE TO DEATH!!!");
             }
@@ -146,13 +146,13 @@ var marker = new mapboxgl.Marker({
 
             //*************** DAY 3 ***************//
             if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 > 85)){
-                $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO DAMN HOT!!!");
+                $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO HOT!!!");
             } else if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 < 84 && Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 > 60))){
                 $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It's nice out today!");
             } else if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 < 59 && Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 > 36))){
                 $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit It is cold today.");
             } else if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 < 35 && Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 > 0))){
-                $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS FUCKING COLD TODAY!!!");
+                $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS COLD TODAY!!!");
             } else if(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32 < 0)){
                 $("#tempurature2").html(Math.floor(((parseInt(cityTemp2)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit YOU WILL FREEZE TO DEATH!!!");
             }
