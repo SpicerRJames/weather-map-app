@@ -21,6 +21,7 @@ $("#button").on('click', function(event){
         $("#name").html(cityName);
 
         //********* DAY 1 ***************//
+        
         if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 > 85)){
             $("#tempurature").html(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32) + " " + "Degrees Fahrenheit IT IS SOO DAMN HOT!!!");
         } else if(Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 < 84 && Math.floor(((parseInt(cityTemp)-273.15)*1.8)+32 > 60))){
